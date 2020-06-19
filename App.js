@@ -19,11 +19,11 @@ import React from "react";
 // } from "@react-native-community/hooks";
 
 import WelcomeScreen from "./app/screens/WelcomeScreen";
-
+import ViewImageScreen from "./app/screens/ViewImageScreen";
 export default function App() {
   //how to get the dimention of the screen.
   // const { landscape } = useDeviceOrientation();
-  return <WelcomeScreen/>
+  return <ViewImageScreen/>
 }
 //     // <SafeAreaView style={styles.container}>
 //     //   <View
